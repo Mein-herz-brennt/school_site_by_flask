@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  <title>Головна</title>
+{% endblock %}
+
+{% block body %}
+      <h1>Наша компанія</h1>
+    <p><a href="/add_new_emp">Додати нового співробітника</a></p>
+    <p><a href="/add_new_dep">Додати новий підрозділ</a></p>
+    <p><a href="/add_new_pos">Додати нову вакансію</a></p>
+    <p><a href="/update_emp">Поновити інформацію про співробітника</a></p>
+    <p><a href="/update_dep">Поновити інформацію про підрозділ</a></p>
+    <p><a href="/update_pos">Поновити інформацію про вакансію</a></p>
+    <p><a href="/delete_emp">Звільнити співробітника</a></p>
+    <p><a href="/delete_dep">Розформувати підрозділ</a></p>
+    <p><a href="/delete_pos">Звільнити вакансію</a></p>
+    <p><a href="/add_report_card">Додати інформацію про роботу співробітника за день</a></p>
+    <p><a href="/add_result_card">Розрахувати зарплату співробітника за цей місяць</a></p>
+    <p><a href="/update_report_card">Поновити інформацію про роботу співробітника за день</a></p>
+    <p><a href="/update_result_card">Пере розрахувати зарплату співробітника за цей місяць</a></p>
+{% endblock %}
