@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     {% block title %}{% endblock %}
+    <style type="text/css">
+        h1{
+            background-color: yellow;
+            color:  black;
+            text-align: center;
+        };
+        p{ 
+            color: green;
+            text-align: center;
+            text-height: 10px;
+        };
+        a{
+            color: green;
+            size: 15px;
+        }
+    </style>
 </head>
-<body>
-{% block body %}
-{% endblock %}
+    {% block body %}
+    {% endblock %}
 </body>
 </html>
